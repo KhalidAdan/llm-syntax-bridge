@@ -64,7 +64,8 @@ async function handleMessage(message) {
 ### API Cache Handler
 ```javascript
 // Natural:
-"Wait for a user from requireUser
+"Create a process that given a web request, sends a response that:
+Wait for a user from requireUser
 Retrieve if-none-match headers from the request and store them as
 Attempt to:
   wait for server cache data from withCache using the EXPLORE_KEY,
